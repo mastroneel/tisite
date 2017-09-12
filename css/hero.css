@@ -80,7 +80,9 @@
     width: 84vw; } }
 @media (max-width: 455px) {
   .hero-text {
-    width: 83vw; } }
+    width: 83vw; }
+    .hero-text h1 {
+      font-size: 2.3em; } }
 @media (max-width: 420px) {
   .hero-text {
     width: 81vw; } }
