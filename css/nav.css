@@ -1,0 +1,21 @@
+nav {
+  height: 100px;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 3; }
+  nav ul {
+    list-style: none;
+    display: inline-flex; }
+    nav ul li a {
+      color: #3f4147;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 200;
+      text-decoration: none;
+      margin-right: .8em;
+      margin-left: .8em; }
+    nav ul li a:hover {
+      color: #8cc9cd; }
+
+/*# sourceMappingURL=nav.css.map */
