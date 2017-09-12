@@ -74,6 +74,11 @@
   height: 100vh;
 }
 
+
+// *************
+// MEDIA QUERIES
+// *************
+
 @media (min-width: 992px) {
   .hero {
     top: -10em;
@@ -86,18 +91,6 @@
   }
 }
 
-// @media (min-width: 768px) {
-//   .hero-text {
-//     max-width: 58em;
-//   }
-// }
-
-// @media (max-width: 1315px) {
-//   .hero-text {
-//     top: 175px;
-//   }
-// }
-//
 @media (max-width: 990px) {
   .hero-text {
     width: 58em;
@@ -161,44 +154,3 @@
     width: 77vw;
   }
 }
-
-
-//
-// @media (max-width: 715px) {
-//   .hero-text {
-//     width: 82vw;
-//     display: block;
-//     position: absolute;
-//     left: 2.9vw;
-//   }
-// }
-//
-// @media (max-width: 626px) {
-//   .hero-text {
-//     width: 81vw;
-//   }
-// }
-//
-// @media (max-width: 590px) {
-//   .hero-text {
-//     width: 80vw;
-//   }
-// }
-//
-// @media (max-width: 550px) {
-//   .hero-text {
-//     width: 78vw;
-//     display: block;
-//     position: absolute;
-//     left: 3.4vw;
-//   }
-// }
-//
-// @media (max-width: 525px) {
-//   .hero-text {
-//     width: 75vw;
-//     display: block;
-//     position: absolute;
-//     left: 4.5vw;
-//   }
-// }

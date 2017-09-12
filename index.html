@@ -23,13 +23,30 @@
         <h1>Greatness Doesn't Have A Stereotype</h1>
         <p>We seek to understand entrepreneurs as individuals, appreciate their originality and play to their strengths. Because greatness doesn't have a stereotype. From the earliest days through all phases of growth, it's our responsibility to support unique founders with unique insights as they take the seeds of promise and grow them into amazing, enduring companies.</p>
       </div>
+
       <video autoplay loop>
-        <source src="video/lunch.mp4" type="video/mp4">
-        <!-- <source src="movie.ogg" type="video/ogg"> -->
-      Your browser does not support the video tag.
+          <source src="video/lunch.mp4" type='video/mp4'>
+          Video not supported.
       </video>
     </div>
 
+  <script type="text/javascript">
+      var videoStorage = [
+      './video/lunch',
+      './video/bridge-sky',
+      './video/conference',
+      './video/code',
+      './video/table'
+    ],
+      video = document.querySelector('video'),
+      // choose one random url from our storage as the active video
+      activeVideoUrl = videoStorage[Math.round(Math.random() * (videoStorage.length - 1))];
+
+    // check which file extension your browser can play and set the video source accordingly
+    if(video.canPlayType('video/mp4')) {
+      video.setAttribute('src', activeVideoUrl + '.mp4');
+    }
+  </script>
 
     <div class="blah">
 
