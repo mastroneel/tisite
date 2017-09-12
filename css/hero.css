@@ -1,17 +1,97 @@
-.hero video {
-  width: 100%;
-  height: 85vh;
-  object-fit: cover;
-  object-position: center center;
-  display: inline-block;
-  z-index: 1; }
+.hero {
+  position: relative;
+  top: -6em;
+  min-height: 568px;
+  height: 115vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  overflow: hidden; }
+  .hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: inline-block; }
 
 .hero-text {
   background-color: #fff;
   color: #3f4147;
-  z-index: 2; }
+  z-index: 2;
+  width: 35vw;
+  margin: 0 0 0 8vw;
+  position: absolute;
+  left: 6%;
+  top: 35%;
+  margin: 0 2em;
+  padding: 2em;
+  background-color: #fff;
+  text-align: center; }
+  .hero-text h5, .hero-text h1, .hero-text p {
+    font-family: 'Titillium Web', sans-serif; }
+  .hero-text h1, .hero-text p {
+    font-weight: 200; }
+  .hero-text h5 {
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 1.5;
+    margin-top: 3px; }
+  .hero-text h1 {
+    font-size: 3em;
+    line-height: 1.5;
+    margin-top: -10px; }
+  .hero-text p {
+    font-size: 1.4em;
+    letter-spacing: .025em;
+    margin: 0 0 1.5em;
+    line-height: 1.7;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px; }
 
 .blah {
   height: 100vh; }
+
+@media (min-width: 992px) {
+  .hero {
+    top: -10em; } }
+@media (min-width: 992px) {
+  .hero-text {
+    padding: 4em; } }
+@media (max-width: 990px) {
+  .hero-text {
+    width: 58em;
+    left: 1%; } }
+@media (max-width: 770px) {
+  .hero-text {
+    width: 87vw; } }
+@media (max-width: 670px) {
+  .hero-text {
+    left: -2px; } }
+@media (max-width: 570px) {
+  .hero-text {
+    width: 85vw; } }
+@media (max-width: 485px) {
+  .hero-text {
+    width: 84vw; } }
+@media (max-width: 455px) {
+  .hero-text {
+    width: 83vw; } }
+@media (max-width: 420px) {
+  .hero-text {
+    width: 81vw; } }
+@media (max-width: 385px) {
+  .hero-text {
+    width: 80vw; } }
+@media (max-width: 355px) {
+  .hero-text {
+    width: 78vw; } }
+@media (max-width: 330px) {
+  .hero-text {
+    width: 77vw; } }
 
 /*# sourceMappingURL=hero.css.map */
