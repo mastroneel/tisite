@@ -17,5 +17,7 @@ nav {
       margin-left: .8em; }
     nav ul li a:hover {
       color: #8cc9cd; }
+    nav ul li img {
+      margin-top: 10px; }
 
 /*# sourceMappingURL=nav.css.map */
