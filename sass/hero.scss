@@ -18,14 +18,7 @@
 .hero-text {
   background-color: #fff;
   color: #3f4147;
-  // z-index: 2;
   width: 35vw;
-  // margin: 0 0 0 8vw;
-  // position: absolute;
-  // left: 6%;
-  // top: 35%;
-  // margin: 8em 2em;
-  // margin-top: 50px;
   margin-left: 6%;
   padding: 2em;
   background-color: #fff;
@@ -69,11 +62,6 @@
 // MEDIA QUERIES
 // *************
 
-// @media (min-width: 992px) {
-//   .hero {
-//     top: -10em;
-//   }
-// }
 
 @media (min-width: 992px) {
   .hero-text {
@@ -81,12 +69,6 @@
   }
 }
 
-// @media (max-width: 990px) {
-//   .hero-text {
-//     width: 58em;
-//     left: 1%;
-//   }
-// }
 
 @media (max-width: 770px) {
   .hero-text {
@@ -95,11 +77,6 @@
   }
 }
 
-// @media (max-width: 670px) {
-//   .hero-text {
-//     left: -2px;
-//   }
-// }
 
 @media (max-width: 570px) {
   .hero-text {
@@ -122,27 +99,3 @@
     }
   }
 }
-
-// @media (max-width: 420px) {
-//   .hero-text {
-//     width: 81vw;
-//   }
-// }
-//
-// @media (max-width: 385px) {
-//   .hero-text {
-//     width: 80vw;
-//   }
-// }
-//
-// @media (max-width: 355px) {
-//   .hero-text {
-//     width: 78vw;
-//   }
-// }
-//
-// @media (max-width: 330px) {
-//   .hero-text {
-//     width: 77vw;
-//   }
-// }
