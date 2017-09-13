@@ -1,4 +1,42 @@
 
+
+ul {
+	li {
+    display:inline-block;
+    margin:0 2%;
+    text-align:center;
+    vertical-align:top;
+		a {
+      display:block;
+      color:rgba(255,255,255,0.7);
+      transition:0.3s;
+    }
+		&::after {
+      content:'';
+      display:inline-block;
+      vertical-align:top;
+      opacity:.5;
+      width:0;
+      height:5px;
+      background:#CAE87F;
+      border-radius:10px;
+      transition:0.3s ease;
+    }
+		&:hover {
+		  a {
+        color:#FFF;
+        text-shadow:0 0 9px rgba(255,255,255,0.5);
+        animation:1.5s 0.1s float infinite ease;
+      }
+			&::after {
+        width:100%;
+        opacity:1;
+      }
+		}
+  }
+}
+
+
 nav {
   height: 10em;
   background-color: #fff;
