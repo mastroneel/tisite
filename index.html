@@ -8,7 +8,78 @@
     <title>Accel</title>
   </head>
   <body>
-    <nav>
+
+
+
+    <div class="nav-mobile">
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a class="home" href="#"><li>Home</li></a>
+          <a href="#"><li>Companies</li></a>
+          <a href="#"><li>Team</li></a>
+          <a href="#"><li>Interests</li></a>
+          <a href="#"><li>Careers</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>Mailing List</li></a>
+        </ul>
+      </div>
+    </nav>
+    <a class="mobile-logo" href="#"><img src="img/logo.png"></a>
+  </div>
+
+
+
+
+
+
+    <!-- <div class="nav-mobile">
+      <ul class="nav-mobile-list">
+        <li class="nav-item">
+          <a href="#">Companies</a>
+          <hr>
+        </li>
+        <li class="nav-item">
+          <a href="#">Team</a>
+          <hr>
+        </li>
+        <li class="nav-item">
+          <a href="#">Interests</a>
+          <hr>
+        </li>
+        <li class="nav-item">
+          <a href="#">Careers</a>
+          <hr>
+        </li>
+      </ul>
+
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger"></label>
+    </div> -->
+
+
+
+
+
+
+
+    <nav class="nav-desktop">
       <ul>
         <li><a href="#"><img src="img/logo.png"></a></li>
         <li><a href="#">Companies</a></li>
@@ -17,17 +88,38 @@
         <li><a href="#">Careers</a></li>
       </ul>
     </nav>
-    <div class="hero">
-      <div class="hero-text">
-        <h5>OUR BELIEF</h5>
-        <h1>Greatness Doesn't Have A Stereotype</h1>
-        <p>We seek to understand entrepreneurs as individuals, appreciate their originality and play to their strengths. Because greatness doesn't have a stereotype. From the earliest days through all phases of growth, it's our responsibility to support unique founders with unique insights as they take the seeds of promise and grow them into amazing, enduring companies.</p>
+    <div class="site-wrap">
+      <div class="hero">
+        <div class="hero-text">
+          <h5>OUR BELIEF</h5>
+          <h1>Greatness Doesn't Have A Stereotype</h1>
+          <p>We seek to understand entrepreneurs as individuals, appreciate their originality and play to their strengths. Because greatness doesn't have a stereotype. From the earliest days through all phases of growth, it's our responsibility to support unique founders with unique insights as they take the seeds of promise and grow them into amazing, enduring companies.</p>
+        </div>
+      </div>
+
+      <div class="blah">
+
       </div>
     </div>
 
-    <div class="blah">
 
-    </div>
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
 
+    <script>
+    (function($) {
+      $(function() {
+        $('#nav-toggle').click(function() {
+          $('.nav-mobile-list').slideToggle();
+        });
+        $('#nav-toggle').click(function() {
+          this.classList.toggle('active');
+        });
+      });
+    })(jQuery);
+    </script> -->
   </body>
 </html>

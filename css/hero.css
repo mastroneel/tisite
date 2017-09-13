@@ -62,7 +62,7 @@
 @media (max-width: 485px) {
   .hero-text {
     width: 84vw;
-    margin-top: 170px; } }
+    margin-top: 0px; } }
 @media (max-width: 455px) {
   .hero-text {
     width: 83vw; }
