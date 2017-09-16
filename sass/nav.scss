@@ -11,8 +11,14 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		margin-top: 15px;
+		margin-top: 20px;
 		margin-right: 20px;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    color: #3f4147;
+    &:hover {
+      color: #3f4147;
+    }
 	}
 }
 
@@ -133,7 +139,7 @@ a {
 
 #menu li {
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*
@@ -192,9 +198,18 @@ a {
   width: 100%;
   line-height: 80px;
   z-index: 3;
+  .logo {
+    font-family: 'Prata', serif;
+    font-size: 22px;
+    margin-left: 30px;
+    &:hover {
+      color: #3f4147;
+    }
+  }
   ul {
     list-style: none;
     display: inline-flex;
+    margin-left: -20px;
     li {
       a {
         color: #3f4147;

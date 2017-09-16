@@ -1,15 +1,14 @@
 .hero {
   position: relative;
-  top: -6em;
   min-height: 568px;
-  height: 115vh;
+  height: 100vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
   align-items: center;
   background-color: #f0f0f0;
   overflow: hidden;
-  background-image: url("../img/table.jpg");
+  background-image: url("../img/tokyo-panorama.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 40px; }
@@ -45,9 +44,6 @@
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px; }
-
-.blah {
-  height: 100vh; }
 
 @media (min-width: 992px) {
   .hero-text {
