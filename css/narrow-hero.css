@@ -1,0 +1,35 @@
+.narrow-hero {
+  height: 400px;
+  background-image: url("../img/narrow-hero-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; }
+  .narrow-hero h1, .narrow-hero h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200; }
+  .narrow-hero h1 {
+    font-size: 6em;
+    padding-top: 130px; }
+  .narrow-hero h4 {
+    font-size: 2.5em; }
+
+@media (max-width: 990px) {
+  .narrow-hero {
+    height: 200px;
+    margin-top: -35px; }
+    .narrow-hero h1 {
+      font-size: 5em;
+      padding-top: 40px; }
+    .narrow-hero h4 {
+      font-size: 2em;
+      margin-top: -20px; } }
+@media (max-width: 620px) {
+  .narrow-hero h1 {
+    font-size: 4em;
+    padding-top: 50px; } }
+@media (max-width: 375px) {
+  .narrow-hero h1 {
+    font-size: 3.2em;
+    padding-top: 60px; } }
+
+/*# sourceMappingURL=narrow-hero.css.map */

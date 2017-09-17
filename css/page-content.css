@@ -1,0 +1,17 @@
+.content {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.7em;
+  padding: 80px 0; }
+  .content p {
+    width: 50%;
+    margin: 0 auto; }
+
+@media (max-width: 915px) {
+  .content p {
+    width: 75%; } }
+@media (max-width: 400px) {
+  .content p {
+    width: 85%; } }
+
+/*# sourceMappingURL=page-content.css.map */

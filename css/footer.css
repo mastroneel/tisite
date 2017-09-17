@@ -1,0 +1,13 @@
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0 10px 0; }
+  footer .row-1 a {
+    font-size: 1.7em;
+    margin-left: 0.8em;
+    margin-right: 0.8em; }
+  footer .row-2 p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.4em; }
+
+/*# sourceMappingURL=footer.css.map */
