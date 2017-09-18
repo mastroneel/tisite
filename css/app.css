@@ -333,7 +333,8 @@ footer {
     width: 70%;
     margin: 0 auto; }
   .content h5 {
-    margin-bottom: -1px; }
+    width: 70%;
+    margin: 0 auto; }
 
 @media (max-width: 915px) {
   .content p {
