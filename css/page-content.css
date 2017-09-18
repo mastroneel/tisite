@@ -1,17 +1,24 @@
 .content {
-  text-align: center;
+  text-align: left;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.7em;
-  padding: 80px 0; }
+  padding: 80px; }
   .content p {
-    width: 50%;
+    width: 70%;
     margin: 0 auto; }
+  .content h5 {
+    margin-bottom: -1px; }
 
 @media (max-width: 915px) {
   .content p {
     width: 75%; } }
-@media (max-width: 400px) {
-  .content p {
-    width: 85%; } }
+@media (max-width: 600px) {
+  .content {
+    padding: 80px 20px; } }
+@media (max-width: 410px) {
+  .content {
+    padding: 40px 8px; }
+    .content p {
+      width: 90%; } }
 
 /*# sourceMappingURL=page-content.css.map */

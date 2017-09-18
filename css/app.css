@@ -302,14 +302,12 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center; }
-  .narrow-hero h1, .narrow-hero h4 {
+  .narrow-hero h1 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 200; }
   .narrow-hero h1 {
     font-size: 6em;
-    padding-top: 130px; }
-  .narrow-hero h4 {
-    font-size: 2.5em; }
+    padding-top: 170px; }
 
 @media (max-width: 990px) {
   .narrow-hero {
@@ -317,33 +315,37 @@ footer {
     margin-top: -35px; }
     .narrow-hero h1 {
       font-size: 5em;
-      padding-top: 40px; }
-    .narrow-hero h4 {
-      font-size: 2em;
-      margin-top: -20px; } }
+      padding-top: 60px; } }
 @media (max-width: 620px) {
   .narrow-hero h1 {
     font-size: 4em;
-    padding-top: 50px; } }
+    padding-top: 70px; } }
 @media (max-width: 375px) {
   .narrow-hero h1 {
     font-size: 3.2em;
-    padding-top: 60px; } }
+    padding-top: 80px; } }
 .content {
-  text-align: center;
+  text-align: left;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.7em;
-  padding: 80px 0; }
+  padding: 80px; }
   .content p {
-    width: 50%;
+    width: 70%;
     margin: 0 auto; }
+  .content h5 {
+    margin-bottom: -1px; }
 
 @media (max-width: 915px) {
   .content p {
     width: 75%; } }
-@media (max-width: 400px) {
-  .content p {
-    width: 85%; } }
+@media (max-width: 600px) {
+  .content {
+    padding: 80px 20px; } }
+@media (max-width: 410px) {
+  .content {
+    padding: 40px 8px; }
+    .content p {
+      width: 90%; } }
 body {
   padding: 0;
   margin: 0;
